@@ -30,14 +30,14 @@ version: 1.0.0
 # About/contact
 author:
   name: Zhu Fang
-  description:
+  description: A Stupid Boy
   contact:
 #    linkedin:  https://www.linkedin.com/in/lizhihao
-#    github:    https://github.com/codinfox
+    github:    https://github.com/zhufang9819
 #    facebook:  <hide>
 #    twitter:   https://twitter.com/Li_Zhihao
-#    weibo:     http://weibo.com/41173780
-#    email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
+    zhihu:     https://www.zhihu.com/people/zhu-fang-41-30
+    email:      zhufang147@gmail.com
 
 # Navigation (2nd level links supported)
 nav:
