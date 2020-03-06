@@ -41,14 +41,14 @@ author:
 
 # Navigation (2nd level links supported)
 nav:
-  首页:
+  Home:
     - "/"
-    - { 分类: "/blog/categories/" }
-    - { 标签: "/blog/tags/" }
-  关于:
+    - { Categories: "/blog/categories/" }
+    - { Tags: "/blog/tags/" }
+  About:
     - "/about/"
   Github Project:
-    - "https://github.com/yanxi-me/yanxi-me.github.io"
+    - "https://github.com/zhufang9819/zhufang9819.github.io"
 
 # Where are tags and categories displayed
 tag_page: "/blog/tags/"
@@ -62,6 +62,6 @@ gems:
   - jekyll-paginate
 
 # Puglins
-mathjax: false # whether support mathjax
-google_analytics_token: "UA-100604-12" # leave blank if you don't want google analytics
+mathjax: true # whether support mathjax
+# google_analytics_token: "UA-100604-12" # leave blank if you don't want google analytics
 #disqus_short_name: '' # leave blank if you don't want disqus
