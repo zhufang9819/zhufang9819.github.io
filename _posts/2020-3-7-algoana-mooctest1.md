@@ -6,10 +6,11 @@ tags: [dsa, mooc]
 ---
 
 ##### 第一题
-$$
-\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
-$$
+
+$$\sum_{i=1}^{n} i = \frac{n(n+1)}{2}$$
+
 ##### 第二题
+
 $$
 \left[\begin{array}{cccc}
 1 & 2 & 3 & 4 \\
