@@ -1,8 +1,8 @@
 ---
 layout: post
 title: mooc算法分析测试1
-category: Algorithms
-tags: [dsa, mooc]
+category: Data Structure and Algorithms
+tags: [Dsa, Mooc]
 ---
 
 ##### 第一题
