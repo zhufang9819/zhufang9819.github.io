@@ -94,8 +94,8 @@ $$
 \lim_{n\to\infty} \frac{\sqrt{2 \log n}}{\log \sqrt{n}} = \lim_{t\to \infty} \frac{\sqrt{4 \log t}}{\log t} = 0
 $$
 
-故 1 正确，2，3 已在题号旁说明
-对两边取对数，分别得到 $\log n (\log \log n)$和 $\log \log n (\log n)$ 两者是相等的，则 4 正确
+故 1 正确，2，3 已在题号旁说明，对于 4 ，我们可以对$(\log n) ^{\log n} = n^{\log \log n}$
+对两边取对数，分别得到 $\log n (\log \log n)$和 $\log \log n (\log n)$，两者显然是相等的，故 4 正确
 
 ##### 第八题
 ##### 第九题
