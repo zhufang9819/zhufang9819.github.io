@@ -57,7 +57,7 @@ $$
 4. $n! = \mathcal{o} (n^{n})$
 
 
-对于 1，可以使用 Stirling 公式推导出$n!$ 和$\sqrt{2\pi n}(\frac{n}{e})^{n}$同阶，所以 1 错误，对于 2，我们证明一个结论
+对于 1，可以使用 Stirling 公式推导出$n!$ 和$\sqrt{2\pi n}(\frac{n}{e})^{n}$同阶，所以 1 正确，对于 2，我们证明一个结论
 
 $$
 \log (n!) = \mathcal{\Theta} (n \log n)
