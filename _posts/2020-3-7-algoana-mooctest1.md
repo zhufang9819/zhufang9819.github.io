@@ -57,7 +57,7 @@ $$
 4. $n! = \mathcal{o} (n^{n})$
 
 
-对于 1，可以使用 Stirling 公式推导出$n!$ 和$\sqrt{2\pi n}(\frac{n}{e})^{n}$同阶，显然 1 错误，对于 2，我们证明一个结论
+对于 1，可以使用 Stirling 公式推导出$n!$ 和$\sqrt{2\pi n}(\frac{n}{e})^{n}$同阶，所以 1 错误，对于 2，我们证明一个结论
 
 $$
 \log (n!) = \mathcal{\Theta} (n \log n)
@@ -84,20 +84,18 @@ Q.E.D
 ##### 第七题
 
 1. $~2^{\sqrt{2 \log n}} = \mathcal{O}(2^{\log \sqrt{n}})$
-
-令 $\sqrt{n} = t$ 则有
+2. 可用 1 的方法，判断其错误
+3. 可以用第五题的结论判断其正确
+4. $(\log n) ^{\log n} = \mathcal{O}(n^{\log \log n})$
+ 
+对于1, 令 $\sqrt{n} = t$ 则有
 
 $$
 \lim_{n\to\infty} \frac{\sqrt{2 \log n}}{\log \sqrt{n}} = \lim_{t\to \infty} \frac{\sqrt{4 \log t}}{\log t} = 0
 $$
 
-故 1 正确
-
-2. 可用 1 的方法，判断其错误
-3. 可以用第五题的结论判断其正确
-4. $(\log n) ^{\log n} = \mathcal{O}(n^{\log \log n})$
- 
- 对两边取对数，分别得到 $\log n (\log \log n)$和 $\log \log n (\log n)$ 两者是相等的，则 4 正确
+故 1 正确，2，3 已在题号旁说明
+对两边取对数，分别得到 $\log n (\log \log n)$和 $\log \log n (\log n)$ 两者是相等的，则 4 正确
 
 ##### 第八题
 ##### 第九题
