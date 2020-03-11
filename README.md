@@ -1,5 +1,5 @@
 
-Welcome to My Website !
+Welcome to Home Page!
 ---
 This Jekyll template is based on [Codinfox-Lanyon](https://github.com/codinfox/codinfox-lanyon) and [Yanxi](https://github.com/yanxi-me) and I add some extra features. 
 
