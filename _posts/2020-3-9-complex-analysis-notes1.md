@@ -5,17 +5,15 @@ category: Complex Analysis
 tags: [Analysis]
 ---
 
-## 1.Examples
+### Riemann Mapping Theorem 
 
-### 1.1 Riemann Mapping Theorem 
-
-### 1.2 Fourier Transform
+### Fourier Transform
     
 $$
 \hat{f} (y) = \int_{-\infty}^{+\infty} f(x) e^{-2\pi i x y} \mathrm{d} x 
 $$
     
-### 1.3 Factorial
+### Factorial
 
 Factorial in $\mathbb{N}$
 
@@ -29,9 +27,9 @@ $$
     \Gamma (s) = \int_{-\infty}^{+\infty} e^{-x} x^{s-1} \mathrm{d}x
 $$
 
-### 1.4 Number Theory
-### 1.5 Moments
-### 1.6
+### Number Theory
+### Moments
+### A Function Example
 Given a function $f(x), x\in \mathbb{R}$
 
 $$
@@ -42,4 +40,4 @@ $$
            \end{cases}
 $$
 
-### 1.7 Four Problems between real and complex
+### Four Problems between real and complex
