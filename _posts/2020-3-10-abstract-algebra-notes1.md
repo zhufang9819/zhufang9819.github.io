@@ -2,7 +2,7 @@
 layout: post
 title: Abstract Algebra Notes
 category: Abstract Algebra
-tag: [Algebra]
+tag: [algebra]
 ---
 ## Introduction
  Here is one of my self-taught math courses notes-"Abstract Algebra"， I learned this course based on the lecture videos on [Harvard U](http://matterhorn.dce.harvard.edu/engage/ui/index.html#/1999/01/82345) and Michael Artin’s book "Algebra". I’ll be glad if my notes can help you with learning complex analysis theiry. Let’s begin.

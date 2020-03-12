@@ -2,7 +2,7 @@
 layout: post
 title: Complex Analysis Notes
 category: Complex Analysis
-tags: [Analysis]
+tags: [analysis]
 ---
 ## Introduction
  Here is one of my self-taught math courses notes-“Complex Analysis“， I learned this course based on the lecture videos by Steven Miller on [YouTube](https://www.youtube.com/watch?v=bfrIk13rAJ4&list=PL71JUoXcec_mmLm9psjMKo1FYBXS9WHb7) and Stein’s book “Complex Analysis “. I’ll be glad if my notes can help you with learning complex analysis theory. Let’s begin.

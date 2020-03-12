@@ -2,7 +2,7 @@
 layout: post
 title: mooc 算法分析测试
 category: Data Structure and Algorithms
-tags: [Dsa, Mooc]
+tags: [dsa, mooc, solution]
 ---
 
 ## 简介

@@ -2,7 +2,7 @@
 layout: post
 title: 矩阵迹的一些性质与应用
 category: Matrix Theory
-tags: [Matrix, Algebra]
+tags: [matrix, algebra]
 ---
 
 ## 简介
