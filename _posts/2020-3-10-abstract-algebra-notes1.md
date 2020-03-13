@@ -70,6 +70,7 @@ $$
 1. $(\mathbb{Z}, +)$: the integers, with addtion;
 2. $(\mathbb{R}, +)$: the real number, with addtion;
 3. $(\mathbb{R}, \times)$: the nozero real numbers, with multiplication;
+
 ##### 2.2.3 Symmetric group
 In a set $S =$ Maps$(T, T)$ of functions, a map $f: T\to T$ has an inverse function if and only if it is bijective. Such a map is also called a *permutation* of $T$. The set of permutations forms a group.
 
