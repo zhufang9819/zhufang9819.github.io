@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Complex Analysis Notes
+title: Complex Analysis Notes 1
 category: Complex Analysis
 tags: [analysis]
 ---
@@ -9,23 +9,26 @@ tags: [analysis]
 
 <!-- more -->
 
-## Lecture 1
+<hr>
+Lecture1 is mostly about the important modules and application of complex analysis and review about some basic calculus.
 
-The first lecture is mostly about the important modules and application of complex analysis and review about some basic calculus.
+## 1 Review and Big picture 
 
-#### 1 Review and Big picture 
+### 1.1 Riemann Mapping
+**(Rieman mapping theorem)** *Suppose $\Omega$ is proper and smply connected. If $z_{0} \in \Omega$, then there exists a unique conformal map $F: \Omega \to \mathbb{D}$ such that*
 
-#### 1.1 Riemann Mapping 
-I only give a brief exposition of Riemann Mapping Theorem. It will be argued in the subsequent lecture.
+$$
+F(z_0) = 0 ~~\text{and}~~ F'(z_0) > 0
+$$
 
-
-#### 1.2 Fourier Transform
+It will be discussed in subsequent lectures.
+### 1.2 Fourier Transform
     
 $$
 \hat{f} (y) = \int_{-\infty}^{+\infty} f(x) e^{-2\pi i x y} \mathrm{d} x 
 $$
     
-#### 1.3 Factorial
+### 1.3 Factorial
 
 Factorial in $\mathbb{N}$
 
@@ -36,20 +39,38 @@ $$
 Gamma Function
 
 $$
-    \Gamma (s) = \int_{-\infty}^{+\infty} e^{-x} x^{s-1} \mathrm{d}x
+    \Gamma (s) = \int_{0}^{+\infty} e^{-x} x^{s-1} \mathrm{d}x
 $$
 
-#### 1.4 Number Theory
-#### 1.5 Moments
-#### 1.6 A Function Example
-Given a function $f(x), x\in \mathbb{R}$
+1. $\Gamma (n+1) = n!$
+2. $\Gamma (s+1) = s~\Gamma(s) \quad \Re({s}) > 0$ 
+3. $\Gamma(\frac{1}{2}) = (-\frac{1}{2})! = \sqrt{\pi}$
+
+### 1.4 Number Theory
+
+#### Riemann-Zeta Function
 
 $$
-    f(x) = \begin{cases}
-            & e^{\frac{1}{x^2}} ~~ (x \neq 0)\\
-            & \\
-            & 0                 ~~ (x = 0)
-           \end{cases}
+\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^3} = \prod_{p~\in~\text{primes}}(1 - \frac{1}{p^{s}})^{-1} \quad \Re({s}) > 1
 $$
 
-#### 2 Four Problems between Real and Complex
+1. $\lim_{\epsilon \to 1^{+}} \zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n}$
+2. $\zeta({2}) = \sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^{2}}{6} = \prod_{p} \frac{p^2}{p^2 - 1}$
+
+### 1.5 Moments
+
+$$
+M_{k} = \int_{-\infty}^{+\infty} x^{k} f(x) \mathrm{d} x
+$$
+
+*Moments* may not exist.
+
+## 2 Differences between Real and Complex
+Let $f: \mathbb{R} \to \mathbb{R}$ be a diffentiable function and let also $g: \mathbb{C} \to \mathbb{C}$ be a complex differentiable function , and let $h: \mathbb{R}^{2} \to \mathbb{R}^{2}$ be a differentiable function.
+
+|Properties | $\mathbb{R}$ | $\mathbb{C}$ |
+|:--------:| :------------:|:------------:|
+|If $f$ is differentiable, then f is <br> infinitely diffentiable|No <br> $f(x) = x^{3}\sin (\frac{1}{x})$|Yes|
+|function equals its Taylor series <br>in some neighborhood at point where differentiable|No | Yes|
+|The function may be bounded without being <br>identically constant|Yes<br> $f(x) = \sin x$|No|
+|The line integral of our function along a closed curve must be zero|No|Yes|
