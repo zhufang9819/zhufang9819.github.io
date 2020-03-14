@@ -2,7 +2,7 @@
 layout: post
 titile: 抽象代数习题解答1
 category: Abstract Algebra
-tag: [solution, algebra]
+tag: [solution]
 ---
 
 ## 简介
