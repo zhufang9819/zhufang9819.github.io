@@ -43,4 +43,27 @@ $$
 d = \min \{~d:\text{isValid(d) = TRUE} ~\}
 $$
 
-显然，我们要求解的数就是
+先给出代码，再简要分析
+### 代码
+
+{% highlight cpp %}
+/*  
+    数组 arr 是递增有序的
+*/
+
+int arr[n];
+int binarySearch(int x, int lo, int hi, int k) {
+    int mid;
+    while (lo <= hi) {
+        mid = lo + (hi-lo)/2;
+        if (isValid(mid)) hi = mid-1;
+        else lo = mid+1;
+    }
+    return lo;
+}
+
+{% endhighlight %}
+
+### 分析
+
+## 后记
