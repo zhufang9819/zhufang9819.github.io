@@ -23,7 +23,7 @@ layout: default
   {% endfor %}
   {% endif %}
   <article>
-    {% include toc.html html=content %}
+    {% include toc.html html=content h_min = 1 h_max = 2%}
     {{ content }}
   </article>
 </div>

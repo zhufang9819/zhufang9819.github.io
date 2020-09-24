@@ -24,21 +24,17 @@ sass:
   sass_dir: _scss
 paginate: 5
 paginate_path: "/blog/page:num"
-permalink: pretty 
+permalink: pretty
 
 version: 3.0.0
 
 # About/contact
 author:
   name: Zhu Fang
-  description: A Stupid Boy
+  description: 花有重开日，人无再少年
   contact:
     linkedin:  https://www.linkedin.com/in/fang-zhu-1764ba194/
     github:    https://github.com/zhufang9819
-#    facebook:  <hide>
-#    twitter:   https://twitter.com/Li_Zhihao
-#    
-#    email:      zhufang147@gmail.com
 
 # Navigation (2nd level links supported)
 nav:
