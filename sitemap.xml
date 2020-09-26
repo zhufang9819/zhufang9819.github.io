@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://zhufang.xyz/</loc>
+  <lastmod>2020-09-26T06:03:54+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://zhufang.xyz/blog/</loc>
+  <lastmod>2020-09-26T06:03:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zhufang.xyz/blog/categories/</loc>
+  <lastmod>2020-09-26T06:03:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zhufang.xyz/blog/tags/</loc>
+  <lastmod>2020-09-26T06:03:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zhufang.xyz/about/</loc>
+  <lastmod>2020-09-26T06:03:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zhufang.xyz/testmodule/2020/09/24/mark-down-contents-test/</loc>
+  <lastmod>2020-09-26T06:03:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zhufang.xyz/machine-learning/2020/04/01/intro-lda/</loc>
+  <lastmod>2020-09-26T06:03:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zhufang.xyz/machine-learning/2020/03/31/cca-pca/</loc>
+  <lastmod>2020-09-26T06:03:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
