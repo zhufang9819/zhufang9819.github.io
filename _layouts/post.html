@@ -64,3 +64,28 @@ var disqus_config = function () {
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
 {% endif %}
+
+<!-- Link Gitalk 的支持文件 -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+  <!-- Gitalk 评论 start  -->
+  <div id="gitalk-container"></div>
+      <script type="text/javascript">
+      var title = location.pathname.substr(0, 50);//截取路径的前50个字符作为标识符
+      var gitalk = new Gitalk({
+
+      // gitalk的主要参数
+          clientID:'b0e3569bcd86efbd4f21',
+          clientSecret:'9f09c50206e80566fb8e3c5c890ef638d1b889fc',
+          repo:'zhufang9819.github.io',
+          owner: 'zhu fang',
+          admin: ['zhufang9819'],
+          id: title,//因为这里不能超过50字符，所以做了处理，当超过50时自动截取前50
+
+      });
+      gitalk.render('gitalk-container');
+      </script>
+  <!-- Gitalk end -->
+
+
