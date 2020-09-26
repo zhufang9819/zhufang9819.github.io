@@ -1,7 +1,22 @@
 ---
 layout: default
 ---
+<style>
+  .toc{
+    background-color: #FFF;
+    margin: 5px 0;
+    padding: 10px 30px;
+    border: 1px solid #E8E8E8;
+    border-radius: 3px;
+  }
+  .toctitle{
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+  }
 
+</style>
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
@@ -23,7 +38,10 @@ layout: default
   {% endfor %}
   {% endif %}
   <article>
-    {% include toc.html html=content h_min = 1 h_max = 2%}
+    <div class="toc" >
+      <div class="toctitle"> 目录 </div>
+      {% include toc.html html=content h_min = 1 h_max = 2%}
+    </div>
     {{ content }}
   </article>
 </div>
@@ -45,25 +63,6 @@ layout: default
   </ul>
 </div>
 
-{% if site.disqus_short_name %}
-<div class="comments">
-  <h2>Comments</h2>
-  <div id="disqus_thread"></div>
-  <script>
-var disqus_config = function () {
-  this.page.url = '{{ site.url }}{{ page.url }}'; // Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = '{{ page.id }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable 
- };
-(function() {
-  var d = document, s = d.createElement('script');
-  s.src = '//{{ site.disqus_short_name }}.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-})();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-</div>
-{% endif %}
 
 <!-- Link Gitalk 的支持文件 -->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
