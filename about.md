@@ -4,7 +4,7 @@ title: About Me
 ---
 
 # Fang Zhu(朱放)
-Here is My [](CV)
+Here is My [CV](pdf/cv_zhufang.pdf)
 <!-- ---
 ## Contact
 + Email: zhufang147@gmail.com <br>
