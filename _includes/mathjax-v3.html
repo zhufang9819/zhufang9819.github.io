@@ -2,7 +2,14 @@
     MathJax = {
       tex: {
         inlineMath: [['$','$'], ['\\(','\\)']],
+        displayMath: [                // start/end delimiter pairs for display math
+                ['$$', '$$'],
+                ['\\[', '\\]']
+            ],
         processEscapes: true,
+        macros: {
+          bm: ["\\boldsymbol{#1}", 1],
+        },
         tags: "ams",
         autoload: {
           color: [],
