@@ -19,4 +19,4 @@ $$
 \int_D \nabla \cdot \mathbf{F} \, d x = \int_{\partial D} \mathbf{F} \cdot \mathbf{n}\, d x.
 $$
 
-Here, $D$ is a compact subset of $\mathbb{R}^{n}$, $\partial D$ is the piecewise smooth surface of $D$, $\mathbf{F}$ is a continuously differentiable vector field, and $\mathbf{n}$ is the outward normal vector at points on $\partial D$.
+Here, $D$ is a compact subset of $\mathbb{R}^{n}$, $\partial D$ is the piecewise smooth surface of $D$, $\mathbf{F}$ is a continuously differentiable vector field on $D$, and $\mathbf{n}$ is the outward normal vector at points on $\partial D$.
