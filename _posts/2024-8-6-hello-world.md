@@ -2,7 +2,7 @@
 title: Hello World
 categories: [test]
 tags: [test]
-last_updated: 2024-08-07
+last_modified_at: 2024-08-07
 ---
 In this post, we test various features of the Minimal Mistakes template and Jekyll. <!--more-->First, we evaluate the header levels in Markdown. Then, we assess the performance of MathJax when embedded into Jekyll.In the post, we test some functions of the minimal mistakes template and jekyll.
 
