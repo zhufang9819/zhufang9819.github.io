@@ -5,7 +5,6 @@ tags: [analysis]
 last_modified_at: 2024-08-13
 ---
 
-# Notes on Functional Derivatives
 In this document, we discuss the derivation of functional derivatives for a real-valued function. The focus is on how to handle perturbations in the function and derive the corresponding operator that approximates these changes. We also provide detailed steps on how to apply the divergence theorem to certain terms in the derivation.
 <!--more-->
 
