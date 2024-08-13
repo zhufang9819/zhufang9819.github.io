@@ -9,37 +9,37 @@ last_modified_at: 2024-08-13
 In this document, we discuss the derivation of functional derivatives for a real-valued function. The focus is on how to handle perturbations in the function and derive the corresponding operator that approximates these changes. We also provide detailed steps on how to apply the divergence theorem to certain terms in the derivation.
 <!--more-->
 
-Given a real-valued function $$\rho(\bm{r})$$ and $$\phi(\bm{r})$$ defined on the space $$(\Omega, \| \cdot \|_p)$$, where $$\Omega \subseteq \mathbb{R}^{n}$$, $$\bm{r} \in \Omega$$, and both $$\rho$$ and $$\phi$$ vanish on the boundary $$\partial \Omega$$ (or satisfy periodic boundary conditions), we can define the following functional $$F(\rho)$$:
+Given a real-valued function $\rho(\bm{r})$ and $\phi(\bm{r})$ defined on the space $(\Omega, \| \cdot \|_p)$, where $\Omega \subseteq \mathbb{R}^{n}$, $\bm{r} \in \Omega$, and both $\rho$ and $\phi$ vanish on the boundary $\partial \Omega$ (or satisfy periodic boundary conditions), we can define the following functional $F(\rho)$:
 
 $$
 F(\rho) = \int_{\Omega} f \left( \bm{r}, \rho({\bm{r}}),  \delta\rho({\bm{r}}), \nabla \rho({\bm{r}}), \Delta \rho(\bm{r}) \right) \, d \bm{r} \in \mathbb{R}.
 $$
 
-Before deriving the functional derivative of $$F$$, we first consider the effect of a local perturbation $$\phi$$ on $$F(\rho)$$ by analyzing the difference $$F(\rho + \phi) - F(\rho)$$. As $$\| \phi \|_p \to 0$$, we wish for $$F(\rho + \phi) - F(\rho)$$ to be approximated by a certain linear operator $$\mathcal{A}(\rho)$$ acting on $$\phi$$, denoted by $$\mathcal{A}(\rho; \phi)$$, i.e.,
+Before deriving the functional derivative of $F$, we first consider the effect of a local perturbation $\phi$ on $F(\rho)$ by analyzing the difference $F(\rho + \phi) - F(\rho)$. As $\| \phi \|_p \to 0$, we wish for $F(\rho + \phi) - F(\rho)$ to be approximated by a certain linear operator $\mathcal{A}(\rho)$ acting on $\phi$, denoted by $\mathcal{A}(\rho; \phi)$, i.e.,
 
 $$
 F(\rho + \phi )  - F(\rho) = \mathcal{A}(\rho; \phi) + o (\| \phi \|_p).
 $$
 
-We can construct the action of the linear operator $$\mathcal{A}(\rho)$$ on $$\phi$$ using the $$L_2$$ norm on $$\Omega$$, expressed as:
+We can construct the action of the linear operator $\mathcal{A}(\rho)$ on $\phi$ using the $L_2$ norm on $\Omega$, expressed as:
 
 $$
 \mathcal{A}(\rho; \phi) = \int_{\Omega} \mathcal{A}(\rho)  \phi(\bm{r}) \, d \bm{r}.
 $$
 
-It is evident that $$\mathcal{A}(\rho; \phi)$$ is linear in $$\phi$$, meaning that for $$\lambda, \mu \in \mathbb{R}$$ and functions $$\phi_1, \phi_2$$, we have:
+It is evident that $\mathcal{A}(\rho; \phi)$ is linear in $\phi$, meaning that for $\lambda, \mu \in \mathbb{R}$ and functions $\phi_1, \phi_2$, we have:
 
 $$
 \mathcal{A}(\rho; \lambda \phi_1 + \mu \phi_2 ) = \lambda \mathcal{A}(\rho;\phi_1)  + \mu \mathcal{A}(\rho;\phi_2).
 $$
 
-To derive $$\mathcal{A}(\rho)$$, let $$\phi = \epsilon \phi$$. Substituting this into the previous approximation yields:
+To derive $\mathcal{A}(\rho)$, let $\phi = \epsilon \phi$. Substituting this into the previous approximation yields:
 
 $$
 F(\rho + \epsilon \phi )  - F(\rho) = \mathcal{A}(\rho; \epsilon \phi) + o (\| \epsilon \phi \|_p).
 $$
 
-Given the linearity of the $$L_p$$ norm and $$\mathcal{A}(\rho; \phi)$$, we get:
+Given the linearity of the $L_p$ norm and $\mathcal{A}(\rho; \phi)$, we get:
 
 $$
 \begin{aligned}
@@ -48,7 +48,7 @@ F(\rho + \epsilon \phi )  - F(\rho) & = \epsilon \mathcal{A}(\rho; \phi) +  o (|
 \end{aligned}
 $$
 
-Dividing both sides by $$\epsilon$$ and taking the limit as $$\epsilon \to 0$$ gives:
+Dividing both sides by $\epsilon$ and taking the limit as $\epsilon \to 0$ gives:
 
 $$
 \begin{aligned}
@@ -57,24 +57,24 @@ $$
 \end{aligned}
 $$
 
-Combining this with the earlier expression for $$\mathcal{A}(\rho; \phi)$$ yields:
+Combining this with the earlier expression for $\mathcal{A}(\rho; \phi)$ yields:
 
 $$
 \int_{\Omega} \mathcal{A}(\rho)  \phi(\bm{r}) \, d \bm{r} = \lim_{\epsilon \to 0} \frac{F(\rho + \epsilon \phi )  - F(\rho)}{\epsilon}.
 $$
 
-This defines the operator $$\mathcal{A}(\rho)$$, and to make it consistent with calculus, we can define the functional derivative as $$\delta F/ \delta \rho = \mathcal{A}(\rho)$$. Thus, we have:
+This defines the operator $\mathcal{A}(\rho)$, and to make it consistent with calculus, we can define the functional derivative as $\delta F/ \delta \rho = \mathcal{A}(\rho)$. Thus, we have:
 
 $$
 \int_{\Omega} \frac{\delta F}{\delta \rho}  \phi(\bm{r}) \, d \bm{r} = \lim_{\epsilon \to 0} \frac{F(\rho + \epsilon \phi )  - F(\rho)}{\epsilon}.
 $$
 
-Next, we demonstrate how to use this to calculate $$\delta F / \delta \rho$$. According to the definition, we have:
+Next, we demonstrate how to use this to calculate $\delta F / \delta \rho$. According to the definition, we have:
 
 $$
 \begin{aligned}
-\lim_{\epsilon \to 0} \frac{F(\rho + \epsilon \phi )  - F(\rho)}{\epsilon} & = \left[ \frac{d}{d \epsilon} \int_{\Omega} f(\bm{r}, \rho + \epsilon \phi, \nabla \rho + \epsilon \nabla \phi, \Delta \rho + \epsilon \Delta \phi ) \, d \mathbf{r}\right]_{\epsilon = 0} \\ 
-& = \int_{\Omega} \frac{\partial f}{\partial \rho} \phi + \underbrace{\frac{\partial f}{\partial \nabla \rho} \cdot \nabla\phi}_{\text{I}}+ \underbrace{\frac{\partial f}{\partial \Delta \rho} \Delta \phi }_{\text{II}}\, d \mathbf{r}.
+\lim_{\epsilon \to 0} \frac{F(\rho + \epsilon \phi )  - F(\rho)}{\epsilon} & = \left[ \frac{d}{d \epsilon} \int_{\Omega} f(\bm{r}, \rho + \epsilon \phi, \nabla \rho + \epsilon \nabla \phi, \Delta \rho + \epsilon \Delta \phi ) \, d \bm{r}\right]_{\epsilon = 0} \\ 
+& = \int_{\Omega} \frac{\partial f}{\partial \rho} \phi + \underbrace{\frac{\partial f}{\partial \nabla \rho} \cdot \nabla\phi}_{\text{I}}+ \underbrace{\frac{\partial f}{\partial \Delta \rho} \Delta \phi }_{\text{II}}\, d \bm{r}.
 \end{aligned}
 $$
 
