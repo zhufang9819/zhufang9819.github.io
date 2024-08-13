@@ -74,7 +74,7 @@ Next, we demonstrate how to use this to calculate $$\delta F / \delta \rho$$. Ac
 $$
 \begin{aligned}
 \lim_{\epsilon \to 0} \frac{F(\rho + \epsilon \phi )  - F(\rho)}{\epsilon} & = \left[ \frac{d}{d \epsilon} \int_{\Omega} f(\bm{r}, \rho + \epsilon \phi, \nabla \rho + \epsilon \nabla \phi, \Delta \rho + \epsilon \Delta \phi ) \, d \mathbf{r}\right]_{\epsilon = 0} \\ 
-& = \int_{\Omega} \frac{\partial f}{\partial \rho} \phi + \underbrace{\frac{\partial f}{\partial \nabla \rho} \cdot \nabla\phi}_{\text{I}}+ \underbrace{\frac{\partial f}{\partial \Delta \rho} \Delta \phi }_{\text{II}}\, d \mathbf{x}.
+& = \int_{\Omega} \frac{\partial f}{\partial \rho} \phi + \underbrace{\frac{\partial f}{\partial \nabla \rho} \cdot \nabla\phi}_{\text{I}}+ \underbrace{\frac{\partial f}{\partial \Delta \rho} \Delta \phi }_{\text{II}}\, d \mathbf{r}.
 \end{aligned}
 $$
 
